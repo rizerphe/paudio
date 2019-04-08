@@ -77,6 +77,7 @@ c.bind('<Button-1>', select)
 
 
 while True:
+    c.delete('all')
     c.create_rectangle(0, 0, 500, 500, fill='white')
     n = 0
     for active, path, data in audios:
